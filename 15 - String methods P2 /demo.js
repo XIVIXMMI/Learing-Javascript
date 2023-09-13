@@ -44,9 +44,3 @@ function replaceAll(macth,p1,p2,p3){
 }
 let s1 = "Hello John, Hello Peter, Hello Mary";
 console.log(s1.replace(/Hello (John|Perter|Mary)/g,replaceAll)); //Xin chào John, Hello Peter, Xin chào Mary
-
-
-// 5:37 - Các phương thức phân tách
-// 5:58 - Phương thức slice
-// 7:43 - Phương thức substring
-// 8:22 - Phương thức substr
