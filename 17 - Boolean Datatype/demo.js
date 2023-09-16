@@ -5,12 +5,13 @@
 * For example:
 * 1 is true because it has a value.
 * 0 is false because it doesn't have a value.
-* Boolean returns true in the following cases:
+* ?Boolean returns true in the following cases:
 * When it's not equal to 0.
 * When it's not equal to -0.
 * When an array is not null (contains at least one element).
 * When it's explicitly set to true.
 * When it represents an object (truthy).
+* ?Boolean returns false in the following case:
 * Null and undefined, when converted to Boolean data type, become false (falsy).
 * When converting a Number data type to Boolean:
 * 1 becomes true.
